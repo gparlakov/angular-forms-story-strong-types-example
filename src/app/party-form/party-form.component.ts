@@ -6,7 +6,7 @@ import {
   typedFormArray,
   TypedFormArray,
   TypedArraysIn
-} from 'forms';
+} from 'ngx-forms-typed';
 import { PartyForm } from './party-form.model';
 import { take } from 'rxjs/operators';
 import { eventDefault } from '../event-form/event-form.model';

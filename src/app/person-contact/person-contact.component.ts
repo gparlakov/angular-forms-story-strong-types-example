@@ -1,8 +1,8 @@
 import { Component, OnInit, Self, Optional } from '@angular/core';
-import { typedFormGroup, typedFormControl } from 'forms';
+import { typedFormGroup, typedFormControl } from 'ngx-forms-typed';
 import { PersonContact } from './person-contact.model';
 import { NgControl } from '@angular/forms';
-import { ControlValueAccessorConnector } from 'forms';
+import { ControlValueAccessorConnector } from 'ngx-forms-typed';
 
 @Component({
   selector: 'fty-person-contact',
